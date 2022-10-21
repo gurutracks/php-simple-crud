@@ -4,8 +4,9 @@
 // Include the config file
 include('config.php');
 
+echo "<H1>CRUD application with PHP and MySQL</H1>";
 // Add a link for new record addition
-echo "<a href=create.php>Add New Address</a><br>";
+echo "<a href=create.php>Add New Address</a><br><br>";
 
 // Select fields
 $sql = "SELECT * FROM address_table";
