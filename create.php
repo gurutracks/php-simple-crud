@@ -1,19 +1,19 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Create Record</title>
 </head>
 <body>
+    <h1>CRUD application with PHP and MySQL</h1>
     <!-- HTML form for user input. Form submits to itself to execute PHP code bellow -->
     <form action="<?php ($_SERVER["PHP_SELF"]); ?>" method="post">
         <label>Name</label><br>
-        <input type="text" name="form_name"><br>
+        <input type="text" name="form_name" size="50"><br>
         <label>Address</label><br>
-        <input type="text" name="form_address"><br>
+        <input type="text" name="form_address" size="50"><br>
         <label>Phone</label><br>
-        <input type="text" name="form_phone"><br>
+        <input type="text" name="form_phone" size="50"><br>
         <label>Email</label><br>
-        <input type="text" name="form_email"><br>
+        <input type="text" name="form_email" size="50"><br><br>
         <input type="submit">
     </form>
 </body>
